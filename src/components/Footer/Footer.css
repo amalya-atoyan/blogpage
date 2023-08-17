@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(153, 78, 153);
+    height: 100px;
+    padding-top: 20px;
+}
+
+
+.info{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+@media(max-width:650px){
+    footer{
+        justify-content: center;
+        gap: 10px;
+    }
+    .info{
+        font-size: 18px;
+        letter-spacing: 0px;
+        width: 150px;
+    }
+}
+
+
+@media(max-width:540px){
+    .info{
+        font-size: 15px;
+        width: 100px;
+    }
+    footer{
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,92 @@
+.form2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 60px;
+      border-radius: 15px;
+      width: 700px;
+      height: 650px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+    background-color: rgb(153, 78, 153);
+}
+
+.titleInput{
+  width: 420px;
+  height: 70px;
+  margin: 40px 0;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+
+textarea{
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.addBtn{
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background-color: rgb(46, 87, 104);
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 30px 0;
+  cursor: pointer;
+  background-color: gainsboro;
+
+}
+
+.imgInput{
+  padding: 10px 20px;
+}
+
+.addImg{
+  width: 220px;
+  height: 150px;
+}
+
+@media(max-width:700px){
+  .form2{
+    width: 550px;
+    height: 500px;
+    margin-top: 120px;
+    margin-bottom: 132px;
+  }
+
+}
+
+@media(max-width:555px){
+  .form2{
+    width: 400px;
+  }
+  textarea{
+    width: 370px;
+    height: 250px;
+  
+  }
+  .titleInput{
+    width: 370px;
+  }
+
+}
+
+@media(max-width:430px){
+  .form2{
+    width: 300px;
+  }
+  textarea{
+    width: 280px;
+    height: 280px;
+  
+  }
+  .titleInput{
+    width: 280px;
+  }
+
+}

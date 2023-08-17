@@ -1,0 +1,118 @@
+.myPostsImage{
+    width:360px ;
+    height: 290px;
+    padding-top: 20px;
+}
+
+.myPostsDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    justify-items: center;
+    align-items: start;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.eachPost{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postsTitle{
+    width: 340px;
+    padding-left: 10px 5px;
+}
+
+.btn{
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.myPostsBody{
+    width:360px ;
+    padding-top: 10px;
+}
+
+
+
+
+@media(max-width:1270px){
+    .myPostsDiv{
+        grid-gap:10px;
+    }
+}
+
+@media(max-width:1170px){
+    .myPostsDiv{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:10px;
+    }
+}
+
+@media(max-width:800px){
+    .myPostsImage{
+        width: 300px;
+        height: 250px;
+    }
+    .postsTitle{
+        width: 280px;
+    }
+    .myPostsBody{
+        width:300px ;
+    }
+    .uniquePost{
+        margin-top: 50px;
+    }
+    .myPostsDiv{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:650px){
+    .myPostsImage{
+        width: 230px;
+        height: 200px;
+    }
+    .postsTitle{
+        width: 230px;
+    }
+    .myPostsBody{
+        width:230px ;
+    }
+}
+
+@media(max-width:500px){
+    .myPostsImage{
+        width: 350px;
+        height: 280px;
+    }
+    .postsTitle{
+        width: 350px;
+    }
+    .myPostsBody{
+        width:320px ;
+    }
+    .myPostsDiv{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:0px;
+    }
+}
+
+@media(max-width:400px){
+    .myPostsImage{
+        width: 300px;
+        height: 240px;
+    }
+    .postsTitle{
+        width: 300px;
+    }
+    .myPostsBody{
+        width:270px ;
+    }  
+}

@@ -1,0 +1,89 @@
+.signUpContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border: none;
+  border-radius: 10px;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(153, 78, 153);
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  color: white;
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input {
+  padding: 15px 40px;
+  border-radius: 10px;
+  margin-top: 40px;
+  text-align: center;
+  width: 350px;
+}
+
+.input::placeholder {
+  text-align: center;
+  font-size: 15px;
+}
+
+.input:hover {
+  background-color: antiquewhite;
+  transition: 1s;
+}
+
+.error {
+  color: whitesmoke;
+  font-size: 13px;
+  text-align: left;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitBtn {
+  width: 200px;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 40px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.submitBtn:hover {
+  background-color: rgb(97, 153, 175);
+  color: white;
+  transition: 0.5s;
+}
